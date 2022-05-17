@@ -52,23 +52,27 @@
 
 // Övning 5
 
-const fs = require('fs');
+// const fs = require('fs');
 
-fs.readFile('insults.json', 'utf-8', (error, content) => {
-    if (content) {
-        console.log(typeof content); // Kolla vilken datatyp en variabel är
-        const insultsObj = JSON.parse(content);
-        console.log(typeof insultsObj);
-        for (const insult of insultsObj.insults) {
-            console.log('------------');
-            console.log(`Förolämpning: ${insult.insult}`);
-            console.log(`Pjäs: ${insult.play}`);
-            console.log('------------');
-        }
-        console.log('Antal förolämpningar:', insultsObj.insults.length);
-    } 
-});
-        
+// fs.readFile('insults.json', 'utf-8', (error, content) => {
+//     if (content) {
+//         console.log(typeof content); // Kolla vilken datatyp en variabel är
+//         const insultsObj = JSON.parse(content);
+//         console.log(typeof insultsObj);
+//         for (const insult of insultsObj.insults) {
+//             console.log('------------');
+//             console.log(`Förolämpning: ${insult.insult}`);
+//             console.log(`Pjäs: ${insult.play}`);
+//             console.log('------------');
+//         }
+//         console.log('Antal förolämpningar:', insultsObj.insults.length);
+//     } 
+// });
+
+
+// Övning 6
+
+
 
 
 
